@@ -128,7 +128,7 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                    <a style="color:black;" href="https://www.facebook.com/Humanmexico/"><div class="features-icons-icon d-flex"><i class="fab fa-facebook color-facebook color-hover m-auto"></i></div>
+                    <a style="color:black;" href="https://www.facebook.com/Amederma/"><div class="features-icons-icon d-flex"><i class="fab fa-facebook color-facebook color-hover m-auto"></i></div>
                     <h3>Facebook</h3></a>
                 </div>
             </div>
