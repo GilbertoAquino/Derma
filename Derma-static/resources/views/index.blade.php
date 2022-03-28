@@ -21,43 +21,112 @@
 <div id="Inicio"></div>
     
         
-<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      
-    </div>
+<div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item  active ">
-        <img id="crs_img" class="img-responsive img-circle w-100" src="{{ url('media/home-bg.png') }}" alt="">
-          <div class="carousel-caption text-center" >
-            <div class="p-5 shadow-lg" style="background:rgba(255,255,255,0.5);">
-            <img src="{{url('media/logo-60h.png')}}"  class="w-50" alt="">
+        <div class="carousel-item active" data-bs-interval="4000">
+            <img src="{{ url('img/1.gif') }}" id="crs_img" class="img-responsive img-circle w-100"/>
+            <!--video id="crs_img" class="img-responsive img-circle w-100" autoplay loop>
+                <source src="{{ url('img/1.mp4') }}" />
+            </video-->
+            <div class="carousel-caption text-center" >
+                <!--div class="p-5 shadow-lg" style="background:rgba(255,255,255,0.5);">
+                    <img src="{{url('media/logo-60h.png')}}"  class="w-50" alt="">
+                </div-->
+                <div class="responsive_margin_crs responsive_text_crs">
+                    <h1>Especialistas en tu piel</h1>
+                </div>
+                <a href="./contacto">
+                    <button type="button" class="btn btn-ga-primary responsive_text_crs responsive_margin_crs">
+                        ¡Contáctanos!
+                    </button>
+                </a>
+                <a href="https://wa.me/5215527778875">
+                    <button type="button" class="btn bg-whats responsive_text_crs responsive_margin_crs text-white">
+                        <i class="fab fa-whatsapp responsive_text_crs"></i> Whatsapp 
+                    </button>
+                </a>
             </div>
-            <div class="my-5">
-              <h1>Especialistas en tu piel</h1>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+            <img src="{{ url('img/2.gif') }}" id="crs_img" class="img-responsive img-circle w-100"/>
+            <!--video id="crs_img" class="img-responsive img-circle w-100" loop autoplay>
+                <source src="{{ url('img/2.mp4') }}" />
+            </video-->
+            <div class="carousel-caption text-center" >
+                <!--div class="p-5 shadow-lg" style="background:rgba(255,255,255,0.5);">
+                    <img src="{{url('media/logo-60h.png')}}"  class="w-50" alt="">
+                </div-->
+                <div class="responsive_margin_crs responsive_text_crs">
+                    <h1>Especialistas en tu piel</h1>
+                </div>
+                <a href="./contacto">
+                    <button type="button" class="btn btn-ga-primary responsive_text_crs responsive_margin_crs">
+                        ¡Contáctanos!
+                    </button>
+                </a>
+                <a href="https://wa.me/5215527778875">
+                    <button type="button" class="btn bg-whats responsive_text_crs responsive_margin_crs text-white">
+                        <i class="fab fa-whatsapp responsive_text_crs"></i> Whatsapp 
+                    </button>
+                </a>
             </div>
-            <a href="./contacto">
-              <button type="button" class="btn btn-ga-primary my-5 fs-4" data-bs-toggle="modal" data-bs-target="#carrousel_modal0">
-                ¡Contáctanos!
-              </button>
-            </a>
-            <a href="https://wa.me/5215527778875">
-              <button type="button" class="btn bg-whats my-5 fs-4 text-white" data-bs-toggle="modal" data-bs-target="#carrousel_modal0">
-              <i class="fab fa-whatsapp fs-4"></i> Whatsapp 
-              </button>
-            </a>
-          </div>
-      </div>   
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+            <img src="{{ url('img/3.gif') }}" id="crs_img" class="img-responsive img-circle w-100"/>
+            <!--video  id="crs_img" class="img-responsive img-circle w-100" loop autoplay>
+                <source src="{{ url('img/3.mp4') }}" />
+            </video-->
+            <div class="carousel-caption text-center" >
+                <!--div class="p-5 shadow-lg" style="background:rgba(255,255,255,0.5);">
+                    <img src="{{url('media/logo-60h.png')}}"  class="w-50" alt="">
+                </div-->
+                <div class="responsive_margin_crs responsive_text_crs">
+                    <h1>Especialistas en tu piel</h1>
+                </div>
+                <a href="./contacto">
+                    <button type="button" class="btn btn-ga-primary responsive_text_crs responsive_margin_crs">
+                        ¡Contáctanos!
+                    </button>
+                </a>
+                <a href="https://wa.me/5215527778875">
+                    <button type="button" class="btn bg-whats responsive_text_crs responsive_margin_crs text-white">
+                        <i class="fab fa-whatsapp responsive_text_crs"></i> Whatsapp 
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+            <img src="{{ url('img/4.gif') }}" id="crs_img" class="img-responsive img-circle w-100"/>
+            <!--video id="crs_img" class="img-responsive img-circle w-100" loop autoplay>
+                <source src="{{ url('img/4.mp4') }}" />
+            </video-->
+            <div class="carousel-caption text-center" >
+                <!--div class="p-5 shadow-lg" style="background:rgba(255,255,255,0.5);">
+                    <img src="{{url('media/logo-60h.png')}}"  class="w-50" alt="">
+                </div-->
+                <div class="responsive_margin_crs responsive_text_crs">
+                    <h1>Especialistas en tu piel</h1>
+                </div>
+                <a href="./contacto">
+                    <button type="button" class="btn btn-ga-primary responsive_text_crs responsive_margin_crs">
+                        ¡Contáctanos!
+                    </button>
+                </a>
+                <a href="https://wa.me/5215527778875">
+                    <button type="button" class="btn bg-whats responsive_text_crs responsive_margin_crs text-white">
+                        <i class="fab fa-whatsapp responsive_text_crs"></i> Whatsapp 
+                    </button>
+                </a>
+            </div>
+        </div>      
     </div>
-  </div>
-    
-
-    
-    <section class="page-section py-5 ser-2-izq" id="services">
+</div>
+    <section class="page-section py-5" id="services">
     <div class="container">
         <div class="text-center mb-5">
-            <h1 class="section-heading text-white">Servicios</h1>
+            <h1 class="section-heading ">Servicios</h1>
             <h2>{{$hola ?? ''}}</h2>
-            <h5 class="section-subheading text-white">En la clínica contamos con dermatólogos certificados, especialistas en dermatología clínica, quirúrgica y estética</h5>
+            <h5 class="section-subheading ">En la clínica contamos con dermatólogos certificados, especialistas en dermatología clínica, quirúrgica y estética</h5>
         </div>
         <div class="row text-center d-flex justify-content-evenly">
             
@@ -66,7 +135,7 @@
                     <i class="fas fa-circle fa-stack-2x float-s"></i>
                     <i class="fas fa-diagnoses fa-stack-1x my-float-s fa-inverse"></i>
                 </span>
-                <h5 class="my-3 text-white">Consulta dermatológica</h5></a>
+                <h5 class="my-3 ">Consulta dermatológica</h5></a>
             </div>
             
             <div class="col-md-3">
@@ -74,7 +143,7 @@
                     <i class="fas fa-circle fa-stack-2x float-s"></i>
                     <i class="fas fas fa-clinic-medical fa-stack-1x my-float-s fa-inverse"></i>
                 </span>
-                <h5 class="my-3 text-white">Cirugía dermatológica</h5></a>
+                <h5 class="my-3 ">Cirugía dermatológica</h5></a>
             </div>
             
             <div class="col-md-3">
@@ -82,7 +151,7 @@
                     <i class="fas fa-circle fa-stack-2x float-s"></i>
                     <i class="fas fa-laptop-medical fa-stack-1x my-float-s fa-inverse"></i>
                 </span>
-                <h5 class="my-3 text-white">Clínica Láser</h5></a>
+                <h5 class="my-3 ">Clínica Láser</h5></a>
             </div>
             
             <div class="col-md-3">
@@ -90,7 +159,7 @@
                     <i class="fas fa-circle fa-stack-2x float-s"></i>
                     <i class="fas fa-stethoscope fa-stack-1x my-float-s fa-inverse"></i>
                 </span>
-                <h5 class="my-3 text-white">Dermatología pediátrica</h5></a>
+                <h5 class="my-3 ">Dermatología pediátrica</h5></a>
             </div>
             
             <div class="col-md-3">
@@ -98,7 +167,7 @@
                     <i class="fas fa-circle fa-stack-2x float-s"></i>
                     <i class="fas fa-medkit fa-stack-1x my-float-s fa-inverse"></i>
                 </span>
-                <h5 class="my-3 text-white">Dermatología cosmética</h5></a>
+                <h5 class="my-3 ">Dermatología cosmética</h5></a>
             </div>
             
             <div class="col-md-3">
@@ -106,7 +175,7 @@
                     <i class="fas fa-circle fa-stack-2x float-s"></i>
                     <i class="fas fa-child fa-stack-1x my-float-s fa-inverse"></i>
                 </span>
-                <h5 class="my-3 text-white">Tratamientos corporales</h5></a>
+                <h5 class="my-3 ">Tratamientos corporales</h5></a>
             </div>
             
             <div class="col-md-3">
@@ -114,13 +183,13 @@
                     <i class="fas fa-circle fa-stack-2x float-s"></i>
                     <i class="fas fa-pills fa-stack-1x my-float-s fa-inverse"></i>
                 </span>
-                <h5 class="my-3 text-white">Farmacia dermatológica</h5></a>
+                <h5 class="my-3 ">Farmacia dermatológica</h5></a>
             </div>
             
         </div>
     </div>
 </section>
-    <section class="features-icons text-center">
+    <!--section class="features-icons text-center">
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading ">Nuestras redes sociales</h2>
@@ -128,7 +197,7 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                    <a style="color:black;" href="https://www.facebook.com/Amederma/"><div class="features-icons-icon d-flex"><i class="fab fa-facebook color-facebook color-hover m-auto"></i></div>
+                    <a style="color:black;" href="https://www.facebook.com/Humanmexico/"><div class="features-icons-icon d-flex"><i class="fab fa-facebook color-facebook color-hover m-auto"></i></div>
                     <h3>Facebook</h3></a>
                 </div>
             </div>
@@ -146,7 +215,7 @@
             </div>
         </div>
     </div>
-</section>
+</section-->
 
     
     

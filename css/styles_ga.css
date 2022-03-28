@@ -1,7 +1,8 @@
 *{
-  font-family: 'Montserrat';
+  font-family:'Montserrat';
   font-size: 16px;
 }
+
 .float2{
   position:fixed;
   width:35px;
@@ -28,10 +29,10 @@
   width: 100%;
   padding: 10px 0;
   font-size: 16px;
-  color: #7B3D41;
+  color: black;
   margin-bottom: 30px;
   border: none;
-  border-bottom: 1px solid #7B3D41;
+  border-bottom: 1px solid #F37D76;
   outline: none;
   background: transparent;
 }
@@ -39,10 +40,10 @@
   width: 100%;
   padding: 10px 0;
   font-size: 16px;
-  color: #7B3D41;
+  color: black;
   margin-bottom: 30px;
   border: none;
-  border-bottom: 1px solid #7B3D41;
+  border-bottom: 1px solid #F37D76;
   outline: none;
   background: transparent;
 }
@@ -89,7 +90,7 @@ body{
   opacity: 1;
 }
 .ser-2-izq{
-  background-color: #7B3D41;
+  background-color: #F37D76;
 }
 #header{
   color: black;
@@ -99,20 +100,20 @@ body{
   font-size: 20px;
 }
 .nav-ga-link-white:hover{
-  color: #F37D76;
+  color: #FABB9A;
 }
 .nav-ga-link-black{
   color:black;
   font-size: 20px;
 }
 .nav-ga-link-black:hover{
-  color: #F37D76;
+  color: #FABB9A;
 }
 .holamundo{
   width: 100%;
 }
 .holamundo:hover{
-  background-color: #7B3D41;
+  background-color: #F37D76;
   transition: 1s;
 }
 .activate{
@@ -122,7 +123,7 @@ body{
 }
 .RS{
   font-size: 30px;
-  color: #7B3D41;
+  color: #F37D76;
 }
 .RS:hover{
   font-size: 60px;
@@ -134,7 +135,7 @@ body{
 	background-repeat: repeat;
 }*/
 .bg-ga-dark{
-  background-color: #7B3D41;
+  background-color: #F37D76;
 }
 .s_class_txt{
   color:black;
@@ -143,10 +144,10 @@ body{
   color:white;
 }
 .s_class_txt_white:hover{
-  color: #F37D76;
+  color: #FABB9A;
 }
 .s_class_txt:hover{
-  color: #F37D76;
+  color: #FABB9A;
 }
 .navbar_static_ga{
   /*background-color: #BBCDE5;
@@ -302,8 +303,8 @@ a{
 }
 .btn-ga-secondary{
   color: #fff;
-  background-color: #7B3D41;
-  border-color: #7B3D41;
+  background-color: #F37D76;
+  border-color: #F37D76;
 }
 .btn-ga-secondary:hover{
   background-color: #FABB9A;
@@ -505,7 +506,15 @@ a{
   margin-top:0rem;
   margin-left:-1.5rem;
   }
+  .responsive_margin_crs{
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+  }
 @media (min-width: 980px) {
+  .responsive_margin_crs{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
   .navbar-shrink img {
     display: inline;
     transition: width 0.5s;
@@ -546,7 +555,7 @@ a{
     margin: 0;
   }
   .activate{
-  background-color: #7B3D41;
+  background-color: #F37D76;
   color: white;
   padding: 10px;
   }

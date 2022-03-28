@@ -34,11 +34,11 @@
     
   </div>
 
-  <div class="container">
+  <div class="container-fluid text-white ser-2-izq">
     <div class="row">
       <div class="col-12 text-center mt-5">
           <h2 class="">Padecimientos</h2>
-          <h3 class="text-muted mb-5">Dermatitis atópica</h3>
+          <h3 class="mb-5">Dermatitis atópica</h3>
       </div>
     </div>
     <div class="row">
@@ -48,7 +48,7 @@
         <div class="row">
             <div class="col-lg-3" id="acne1">
             <div class="team-member">
-                  <a href="padecimientos/acne" class="s_class_txt">    
+                  <a href="padecimientos/acne" class="s_class_txt_white">    
                   <div class="chidos">
                     <img class="mx-auto rounded-circle" src="{{url('media/13.png')}}" alt="..." />
                   </div>
@@ -58,7 +58,7 @@
             </div>
             <div class="col-lg-3" id="melasma1">
             <div class="team-member">
-                  <a href="padecimientos/melasma" class="s_class_txt">    
+                  <a href="padecimientos/melasma" class="s_class_txt_white">    
                   <div class="chidos">
                     <img class="mx-auto rounded-circle" src="{{url('media/14.png')}}" alt="..." />
                   </div>
@@ -68,7 +68,7 @@
             </div>
             <div class="col-lg-3" id="psoriasis1">
             <div class="team-member">
-                  <a href="padecimientos/psoriasis" class="s_class_txt">    
+                  <a href="padecimientos/psoriasis" class="s_class_txt_white">    
                   <div class="chidos">
                     <img class="mx-auto rounded-circle" src="{{url('media/15.png')}}" alt="..." />
                   </div>
@@ -78,7 +78,7 @@
             </div>
             <div class="col-lg-3" id="vitiligo1">
               <div class="team-member">
-                  <a href="padecimientos/vitiligo" class="s_class_txt">    
+                  <a href="padecimientos/vitiligo" class="s_class_txt_white">    
                   <div class="chidos">
                     <img class="mx-auto rounded-circle" src="{{url('media/16.png')}}" alt="..." />
                   </div>
@@ -90,7 +90,7 @@
         <div class="row">
             <div class="col-lg-6" id="cicatrices1">
                 <div class="team-member">
-                    <a href="padecimientos/cicatrices" class="s_class_txt"> 
+                    <a href="padecimientos/cicatrices" class="s_class_txt_white"> 
                     <div class="chidos">
                       <img class="mx-auto rounded-circle" src="{{url('media/18.png')}}" alt="..." />
                     </div>
@@ -100,7 +100,7 @@
             </div>
             <div class="col-lg-6" id="dermacontacto1">
                 <div class="team-member">
-                  <a href="padecimientos/dermacontacto" class="s_class_txt">    
+                  <a href="padecimientos/dermacontacto" class="s_class_txt_white">    
                   <div class="chidos">
                     <img class="mx-auto rounded-circle" src="{{url('media/17.png')}}" alt="..." />
                   </div>
