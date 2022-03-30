@@ -125,67 +125,18 @@
     <div class="container">
         <div class="text-center mb-5">
             <h1 class="section-heading ">Servicios</h1>
-            <h2>{{$hola ?? ''}}</h2>
             <h5 class="section-subheading ">En la clínica contamos con dermatólogos certificados, especialistas en dermatología clínica, quirúrgica y estética</h5>
         </div>
         <div class="row text-center d-flex justify-content-evenly">
-            
-            <div class="col-md-3">
-                <a href="servicios/consulta" class="s_class_txt"><span class="mt-4 fa-stack fa-4x">
-                    <i class="fas fa-circle fa-stack-2x float-s"></i>
-                    <i class="fas fa-diagnoses fa-stack-1x my-float-s fa-inverse"></i>
-                </span>
-                <h5 class="my-3 ">Consulta dermatológica</h5></a>
-            </div>
-            
-            <div class="col-md-3">
-                <a href="servicios/Publicacionyentrevistas" class="s_class_txt"><span class="mt-4 fa-stack fa-4x">
-                    <i class="fas fa-circle fa-stack-2x float-s"></i>
-                    <i class="fas fas fa-clinic-medical fa-stack-1x my-float-s fa-inverse"></i>
-                </span>
-                <h5 class="my-3 ">Cirugía dermatológica</h5></a>
-            </div>
-            
-            <div class="col-md-3">
-                <a href="servicios/Investigaciones" class="s_class_txt"><span class="mt-4 fa-stack fa-4x">
-                    <i class="fas fa-circle fa-stack-2x float-s"></i>
-                    <i class="fas fa-laptop-medical fa-stack-1x my-float-s fa-inverse"></i>
-                </span>
-                <h5 class="my-3 ">Clínica Láser</h5></a>
-            </div>
-            
-            <div class="col-md-3">
-                <a href="servicios/Confiabilidad" class="s_class_txt"><span class="mt-4 fa-stack fa-4x">
-                    <i class="fas fa-circle fa-stack-2x float-s"></i>
-                    <i class="fas fa-stethoscope fa-stack-1x my-float-s fa-inverse"></i>
-                </span>
-                <h5 class="my-3 ">Dermatología pediátrica</h5></a>
-            </div>
-            
-            <div class="col-md-3">
-                <a href="servicios/PDA" class="s_class_txt"><span class="mt-4 fa-stack fa-4x">
-                    <i class="fas fa-circle fa-stack-2x float-s"></i>
-                    <i class="fas fa-medkit fa-stack-1x my-float-s fa-inverse"></i>
-                </span>
-                <h5 class="my-3 ">Dermatología cosmética</h5></a>
-            </div>
-            
-            <div class="col-md-3">
-                <a href="servicios/ExamenMedico" class="s_class_txt"><span class="mt-4 fa-stack fa-4x">
-                    <i class="fas fa-circle fa-stack-2x float-s"></i>
-                    <i class="fas fa-child fa-stack-1x my-float-s fa-inverse"></i>
-                </span>
-                <h5 class="my-3 ">Tratamientos corporales</h5></a>
-            </div>
-            
-            <div class="col-md-3">
-                <a href="servicios/IntegracionEquipos" class="s_class_txt"><span class="mt-4 fa-stack fa-4x">
-                    <i class="fas fa-circle fa-stack-2x float-s"></i>
-                    <i class="fas fa-pills fa-stack-1x my-float-s fa-inverse"></i>
-                </span>
-                <h5 class="my-3 ">Farmacia dermatológica</h5></a>
-            </div>
-            
+            @foreach ($services as $ser)
+                <div class="col-md-3">
+                    <a href="servicios/{{$ser->url}}" class="s_class_txt"><span class="mt-4 fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x float-s"></i>
+                        <i class="{{$ser->Icono}} fa-stack-1x my-float-s fa-inverse"></i>
+                    </span>
+                <h5 class="my-3 ">{{$ser->Titulo}}</h5></a>
+                </div>
+            @endforeach
         </div>
     </div>
 </section>

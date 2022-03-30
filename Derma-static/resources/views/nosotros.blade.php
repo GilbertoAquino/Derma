@@ -132,39 +132,38 @@
         </div-->
     
 <section>
-    <div class="container my-5">
+    <div class="container-fluid-1">
         <div class="row">
             <div class="col-lg-4 col-12">
-                <img class="w-100 p-2 rounded" src="{{url('media/about-leftimg.jpeg')}}" alt="Doctor">
+                <img class="w-100 rounded" src="{{url('media/about-leftimg.jpeg')}}" alt="Doctor">
             </div>
             <div class="col-lg-8 col-12">
-                <div class="text-center">
-        
-                <h2 class="">Dr. H. Amed Jaidar Monter</h2>
-                <h3 class="text-muted mb-5">Dermatólogo</h3>
-            </div>
-    <section class="page-section" id="team">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="{{url('media/endors1.png')}}" alt="..." />
-                    <p class="text-muted mt-2">Egresado del</p>
+                <div class="text-center mt-5">
+                    <h2 class="">Dr. H. Amed Jaidar Monter</h2>
+                    <h3 class="text-muted mb-5">Dermatólogo</h3>
                 </div>
-                <div class="team-description mx-5">
-                    <p>Centro Dermatológico Dr. Ladislao de la Pascua.</p>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="{{url('media/endors4.png')}}" alt="..." />
-                    <p class="text-muted mt-2">Cirugía Dermatológica Pediátrica</p>
-                </div>
-                <div class="team-description mx-5">
-                    <p>Hospital Infantil Privado.</p>
-                </div>
-            </div>
-        </div>
+                <section class="page-section" id="team">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="team-member">
+                                    <img class="mx-auto rounded-circle" src="{{url('media/endors1.png')}}" alt="..." />
+                                    <p class="text-muted mt-2">Egresado del</p>
+                                </div>
+                                <div class="team-description mx-5">
+                                    <p>Centro Dermatológico Dr. Ladislao de la Pascua.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="team-member">
+                                    <img class="mx-auto rounded-circle" src="{{url('media/endors4.png')}}" alt="..." />
+                                    <p class="text-muted mt-2">Cirugía Dermatológica Pediátrica</p>
+                                </div>
+                                <div class="team-description mx-5">
+                                    <p>Hospital Infantil Privado.</p>
+                                </div>
+                            </div>
+                        </div>
         <div class="row">
             <div class="col-lg-6">
                 <div class="team-member">

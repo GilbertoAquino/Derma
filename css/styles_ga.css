@@ -2,7 +2,13 @@
   font-family:'Montserrat';
   font-size: 16px;
 }
-
+.container-fluid-1{
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
 .float2{
   position:fixed;
   width:35px;

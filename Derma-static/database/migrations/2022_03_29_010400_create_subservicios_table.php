@@ -15,10 +15,12 @@ class CreateSubserviciosTable extends Migration
     {
         Schema::create('subservicios', function (Blueprint $table) {
             $table->id();
+            $table->integer('servicio_id')->unsigned();
             $table->string('Titulo',500);
             $table->string('Imagen',500);
             $table->text('Articulo');
             $table->string('url',500);
+            $table->foreign('servicio_id')->references('id')->on('servicios');
             $table->timestamps();
         });
     }
